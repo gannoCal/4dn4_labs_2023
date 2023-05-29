@@ -1,0 +1,21 @@
+Connect 10.0.2.15 30001
+put good_boy1.jpg
+get pizza1.jpg
+put good_boy2.jpg
+get pizza2.jpg
+put good_boy3.jpg
+get pizza3.jpg
+put good_boy4.jpg
+get pizza4.jpg
+put good_boy5.jpg
+get pizza5.jpg
+put good_boy6.jpg
+get pizza6.jpg
+put good_boy7.jpg
+get pizza7.jpg
+put good_boy8.jpg
+get pizza8.jpg
+put good_boy9.jpg
+get pizza9.jpg
+put good_boy10.jpg
+get pizza10.jpg

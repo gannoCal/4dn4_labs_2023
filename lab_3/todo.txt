@@ -1,0 +1,11 @@
+1. Need to check transfer size boundaries - e.g if sending something with size that can't be expressed in 8 bytes, throw error and send error code (-1) to client
+
+2. should impliment 1_byte size delimited callback transfer function (copypasta from 8b_delim, but different error checking + size bytes size)
+
+3. Failed File Transfer Handling (too many/too little bytes sent)
+  a. Need to add a timeout for each client if expecting data but none recieved (e.g. remaining bytes < message size but 5 seconds have passed w/o new recieved data)
+  b. If excess bytes recieved, should we drop the excess and keep the file (and flag error to client?), or delete and flag error to client?
+
+4. Echo will break server if buffer is exceeded: no message size
+
+5. Need to handle invalid commands on server side (clear buffer, reset connection?)
